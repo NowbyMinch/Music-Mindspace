@@ -42,14 +42,34 @@ FOREIGN KEY (song_id) REFERENCES songs (song_id)
 FOREIGN KEY (user_id) REFERENCES songs (user_id)
 ```
 
-## Plugins
+## Source Files
+account.db - The database of the project
+app.py - It contains the flask framework used to create the web application in Python
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
+###Static
+index.css - Is the main css, it styles the almost all of the pages of the site, with exception of the login and register pages.
+login-register.css - It styles the login and register pages.
+inde.js - It has the script of almost all the pages of the site.
 
-## Pictures
+###Templates
+layout.html - The layout of the page, that is extended with other files for better organization
+register.html - The register page, when you still don't have an account in the site
+login.html - The login page, when you have an account to enter in the site
+start.html - The page when you log in and has no song added 
+index.html - The page when you log in and already ha a song added
+song_page.html - The page of the song added
 
-**Website entry**
-| Register | Log in |
-| ------ | ------ |
-| ![Screenshot.](https://myoctocat.com/assets/images/base-octocat.svg) | [![Solid](https://cldup.com/dTxpPi9lDf.thumb.png)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

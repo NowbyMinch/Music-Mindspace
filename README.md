@@ -2,7 +2,7 @@
 ####  Video demo: https://www.youtube.com/LINKDOVIDEO 
 
 ####  The project 
-My final project is a website where you can store songs that you want to learn later, adding background image, video, sheet music, title and description for the songs. To enter in the site you need to register an username and a password and then log in the site.
+Music Mindspace is a web application That allows people to add songs that they want to learn or that you learned. Each song can have a background image, a video added by an Youtube URL or a file, sheet music, title and description for the songs. To enter in the site you need to register an username and a password and then log in the site. This site makes it easy to see all the songs that you want to play in one place.
 
 # CS50
 > Languages used:  `Python , JavaScript , HTML and CSS`.

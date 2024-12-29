@@ -488,5 +488,5 @@ def upload_video(songId):
     # Respond with success
     return jsonify({"message": "Video URL saved successfully"})
 
-# if __name__ == '__main__':
-#     app.run(debug=True, use_reloader=True)
+if __name__ == '__main__':
+    app.run(debug=True, use_reloader=True)

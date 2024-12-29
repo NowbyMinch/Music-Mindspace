@@ -1,0 +1,2 @@
+
+    cur = db.cursor()
